@@ -1,0 +1,5 @@
+io\spring\batch\domain\Customer.class
+io\spring\batch\configuration\JobConfiguration.class
+io\spring\batch\repositories\CustomerRepo.class
+io\spring\batch\services\Exservice.class
+io\spring\batch\ReadingXmlApplication.class

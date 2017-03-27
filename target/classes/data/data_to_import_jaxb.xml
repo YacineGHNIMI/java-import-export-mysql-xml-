@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jpa_manytoone>
+    <books>
+        <book>
+            <bookCategory>
+                <id>1</id>
+                <name>Category A</name>
+                <theme>
+                    <id>1</id>
+                    <name>science</name>
+                </theme>
+            </bookCategory>
+            <id>1</id>
+            <name>Book A3</name>
+        </book>
+        <book>
+            <bookCategory>
+                <id>1</id>
+                <name>Category A</name>
+                <theme>
+                    <id>1</id>
+                    <name>science</name>
+                </theme>
+            </bookCategory>
+            <id>2</id>
+            <name>Book A1</name>
+        </book>
+        <book>
+            <bookCategory>
+                <id>2</id>
+                <name> Category B</name>
+                <theme>
+                    <id>2</id>
+                    <name>politique</name>
+                </theme>
+            </bookCategory>
+            <id>3</id>
+            <name>Book B1</name>
+        </book>
+    </books>
+    <bookCategories>
+        <bookCategory>
+            <id>1</id>
+            <name>Category A</name>
+            <theme>
+                <id>1</id>
+                <name>science</name>
+            </theme>
+        </bookCategory>
+        <bookCategory>
+            <id>2</id>
+            <name> Category B</name>
+            <theme>
+                <id>2</id>
+                <name>politique</name>
+            </theme>
+        </bookCategory>
+    </bookCategories>
+    <themes>
+        <theme>
+            <id>1</id>
+            <name>science</name>
+        </theme>
+        <theme>
+            <id>2</id>
+            <name>politique</name>
+        </theme>
+    </themes>
+</jpa_manytoone>
