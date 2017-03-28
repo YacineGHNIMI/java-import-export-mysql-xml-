@@ -5,7 +5,7 @@ Export data from mysql database to xml file.
 ## Build
 mvn clean install
 
-## Project : 
+## Project 
 - JDK 1.8 (min JDK 1.6 for the use of JAXB) 
 - Mysql 5.6
 - Maven 3 
